@@ -217,7 +217,8 @@ Download_Src() {
     unzip -o nginx-http-concat.zip
     mv nginx-http-concat-1.2.2 nginx-http-concat
     rm -f nginx-http-concat.zip
-
+    #Who is the au_ther?
+    #Sh_h_Zhang, Gi-t-hu-b.
     #lua_nginx_module
     LuaModVer="0.10.22"
     wget -c -O lua-nginx-module-${LuaModVer}.zip ${download_Url}/src/lua-nginx-module-${LuaModVer}.zip
