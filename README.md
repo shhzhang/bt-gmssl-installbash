@@ -23,7 +23,7 @@ openssl 3版本已经允许SM2方式，所以我们只需要让nginx引入openss
 >
 > rm -rf /www/server/nginx
 >
-> sudo bash nginx.sh install 1.23
+> bash nginx.sh install 1.23
 > 
 > rm -rf nginx.sh
 >
