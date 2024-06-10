@@ -17,6 +17,10 @@ openssl 3版本已经允许SM2方式，所以我们只需要让nginx引入openss
 二、下载nginx.sh（你可以git clone本库，也可以直接下载这个源文件）到**/root**
 
 三、注意关闭网站的运行，执行下面的命令
+> wget https://github.com/shhzhang/bt-gmssl-installbash/blob/main/nginx.sh -O nginx.sh
+>
+> chmod +x nginx.sh
+>
 > rm -rf /www/server/nginx
 >
 > sudo bash nginx.sh install 1.23
